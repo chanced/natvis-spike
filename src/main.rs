@@ -12,7 +12,7 @@ impl Spike {
 }
 
 fn main() {
-    let x = Spike::new("example.json");
-    let path = std::path::Path::new("example.json");
-    println!("{path:?}\n{x:?}");
+    let spike = Spike::new("example");
+    let path = std::path::Path::new("example");
+    println!("{path:?}\n{spike:?}");
 }
